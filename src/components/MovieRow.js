@@ -4,8 +4,6 @@ import './MovieRow.css';
 import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 
-import PlayArrowIcon from '@material-ui/icons/PlayArrow';
-
 export default ({title, items}) => {
 
    const [scrollx, setScrollx] = useState(-400);
